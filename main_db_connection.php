@@ -1,5 +1,5 @@
 <?php
-   class MyDB extends SQLite3
+   class MYDB extends SQLite3     				//First file makes connection to SQLite3 Database        
    {
       function __construct()
       {
