@@ -1,11 +1,14 @@
 <?php
+
+	$database = new SQLitedatabase('myDatabase.db');
+
  if(isset($_POST['submit1']))
- {
- 	echo"<br>First Name =".$_FILES["file1"]["name"];
-	echo"<br>Temporary File Name =".$_FILES["file1"]["tmp_name"];
-	echo"<br>File Size =".$_FILES["file1"]["size"];
-	move_uploaded_file($_FILES["file1"]["tmp_name"],"upload//".$_FILES["file1"]["name"]);
-}
+ 	{
+	 	echo"<br>First Name =".$_FILES["file1"]["name"];
+		echo"<br>Temporary File Name =".$_FILES["file1"]["tmp_name"];
+		echo"<br>File Size =".$_FILES["file1"]["size"];
+		move_uploaded_file($_FILES["file1"]["tmp_name"],"upload//".$_FILES["file1"]["name"]);
+	}
 ?>
 
 <script>
