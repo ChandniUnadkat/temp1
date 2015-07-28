@@ -73,7 +73,7 @@
 										<table>
 												<tr >
 													<td bgcolor="#FFFFFF"><input type="file" name="file1" onChange="ValidateSingleInput(this)" ></td>
-													<td><input type="submit" value="Upload File" name="submit" class="btn btn-info" ></td>
+													<td><input type="submit" value="Upload File" name="csvdoc" class="btn btn-info" ></td>
 												</tr>
 										</table>
 									 </div>
