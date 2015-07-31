@@ -1,5 +1,5 @@
 <?php 
-   require('main_db_class.php'); 				//Main file with Twitter Bootstrap, Javascript, CSS, HTML, for front end of the system
+   require('main_db_class.php'); //Main file with Twitter Bootstrap, Javascript, CSS, HTML, for front end of the system
    $obj = new main_db_class;
    $res = $obj->displayMembers();
 ?>
