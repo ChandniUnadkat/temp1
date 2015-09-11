@@ -1,6 +1,9 @@
 <?php
 error_reporting(0);
 require_once('main_db_connection.php');			//After connection with database, comes third Party class with functions for importing data from .csv file to SQLite3 Database 
+/**
+ * this is main class 
+ */
 class main_db_class									
 	{
 	 function displayMembers()
